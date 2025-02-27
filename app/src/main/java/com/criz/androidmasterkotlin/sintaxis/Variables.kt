@@ -1,4 +1,4 @@
-package com.criz.androidmasterkotlin
+package com.criz.androidmasterkotlin.sintaxis
 
 val ageCris: Int = 20
 fun main() {
