@@ -12,11 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidMasterKotlin"
         tools:targetApi="31">
+
         <activity
-            android:name=".primerapp.SecondaryActivity"
+            android:name=".segundaapp.ImcCalculatorActivity"
             android:exported="false" />
+
         <activity
-            android:name=".primerapp.FirstAppActivity"
+            android:name=".MenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +26,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".primerapp.SecondaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".primerapp.FirstAppActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
